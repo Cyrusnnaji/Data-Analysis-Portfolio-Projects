@@ -1,14 +1,7 @@
+-- CovidDeaths Table
 select *
 from portfolioproject.dbo.CovidDeaths
 order by 3,4
-
---select *
---from portfolioproject.dbo.CovidVaccinations
---order by 3,4
-
-select location, date, total_cases, new_cases, total_deaths, population
-from portfolioproject..CovidDeaths
-order by 1,2
 
 -- Looking at Total Cases vs Total Deaths
 -- shows the likelihood of dying of covid in your country
